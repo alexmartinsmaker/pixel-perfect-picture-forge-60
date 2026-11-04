@@ -47,7 +47,7 @@ function Index() {
   return (
     <div className="min-h-screen overflow-x-hidden bg-background font-sans text-foreground">
       <header className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-4">
-        <img src={logo.url} alt="Rota do Fazer" className="h-16 w-16 shrink-0 sm:h-20 sm:w-20" />
+        <img src={logo.url} alt="Rota do Fazer" className="h-20 w-20 shrink-0 scale-125 sm:h-24 sm:w-24" />
         <a
           href={FORM_URL}
           target="_blank"
